@@ -1,0 +1,67 @@
+\subsection{Mô tả hệ thống đề xuất}
+\subsubsection{Mô tả tổng quan}
+Hệ thống E-Learning được thiết kế để quản lý toàn diện hoạt động dạy và học trực tuyến, đáp ứng nhu cầu ngày càng cao về đào tạo từ xa. Hệ thống tập trung vào việc xây dựng một môi trường học tập linh hoạt, có cấu trúc rõ ràng và tương tác cao giữa các thành phần tham gia.
+
+Mỗi khóa học trong hệ thống được xây dựng và quản lý bởi một giáo viên phụ trách. Giáo viên có toàn quyền thiết kế nội dung giảng dạy thông qua việc tổ chức khóa học thành các chương học khác nhau. Trong mỗi chương, giáo viên có thể bố trí nhiều bài học với đa dạng hình thức, bao gồm bài học lý thuyết thông thường và video bài giảng, cùng với hệ thống bài tập và bài kiểm tra đi kèm để đánh giá năng lực người học.
+
+Người học khi tham gia hệ thống có thể đăng ký vào nhiều khóa học khác nhau. Trong mỗi khóa học, họ sẽ được trải nghiệm lộ trình học tập được sắp xếp khoa học theo từng chương, thực hiện các bài tập để củng cố kiến thức và tham gia các bài kiểm tra để đánh giá mức độ tiếp thu. Bên cạnh đó, hệ thống còn cung cấp các bài luyện tập độc lập không thuộc chương trình cụ thể nào, cho phép người học rèn luyện thêm kỹ năng.
+
+Để tăng cường tính tương tác, hệ thống tích hợp diễn đàn thảo luận thông qua các bài viết chia sẻ và bình luận. Mỗi bài viết đều được đăng bởi một người dùng cụ thể và có thể thu hút nhiều bình luận từ cộng đồng. Đặc biệt, hệ thống bình luận được thiết kế theo dạng đa cấp, cho phép người dùng phản hồi trực tiếp đến các bình luận khác, tạo nên những chuỗi thảo luận sôi nổi và mang tính xây dựng cao.
+
+Hệ thống cũng chú trọng đến việc đánh giá chất lượng khóa học thông qua cơ chế cho điểm và nhận xét từ người học. Mỗi khóa học sẽ hiển thị điểm đánh giá trung bình dựa trên các đánh giá từ những người đã tham gia, giúp người học mới có cái nhìn tổng quan về chất lượng khóa học trước khi đăng ký.
+
+Với kiến trúc module rõ ràng và khả năng mở rộng cao, hệ thống E-Learning hướng đến việc trở thành một nền tảng học tập trực tuyến toàn diện, đáp ứng mọi nhu cầu về đào tạo từ cơ bản đến nâng cao cho cả cá nhân và tổ chức.
+
+\subsubsection{Mô tả các kiểu thực thể, các thuộc tính, mối liên kết}
+Mỗi \textbf{NGƯỜI DÙNG} sẽ có một \textit{\underline{mã số tài khoản}} để định danh. Các thông tin cá nhân cần lưu trữ bao gồm \underline{\textit{tên tài khoản}}, \textit{mật khẩu}, \textit{email}, \textit{số điện thoại}, \textit{họ tên}, \textit{địa chỉ}, địa chỉ được chi tiết hóa thành \textit{phường, tỉnh, quốc gia}. Hệ thống cũng ghi nhận \textit{ngày tham gia} và quản lý \textit{trạng thái tài khoản} như hoạt động hoặc bị khóa. Người dùng có thể \textbf{tham gia} vào nhiều khóa học, đồng thời \textbf{đánh giá} các khóa học mà họ đã học. Họ cũng có thể \textbf{thực hiện} các bài luyện tập, bài tập và bài kiểm tra trong hệ thống. Ngoài ra, người dùng còn có thể \textbf{đăng} các bài viết chia sẻ và \textbf{viết} bình luận để tương tác với cộng đồng.
+
+\textbf{GIÁO VIÊN} cũng là người dùng, được cung cấp vai trò để \textbf{tạo} các khóa học và các bài luyện tập. Giáo viên kế thừa tất cả thuộc tính từ người dùng thông thường và có thêm các thông tin về học vấn như \textit{trường đào tạo}, \textit{chuyên ngành}, cùng \textit{thời gian bắt đầu} và \textit{thời gian kết thúc} tham gia giảng dạy. Mỗi giáo viên có thể tạo và quản lý nhiều khóa học, bài luyện tập khác nhau.
+
+Mỗi \textbf{KHÓA HỌC} trong hệ thống được xác định duy nhất bằng \underline{\textit{mã số khóa học}}. Thông tin về khóa học bao gồm \underline{\textit{tên khóa học}} và \textit{trạng thái hiện tại} như đang mở hoặc đóng. Để cung cấp cái nhìn tổng quan cho người học, khóa học còn lưu trữ các số liệu thống kê quan trọng như \textit{số lượng bài tập}, \textit{số lượng bài kiểm tra}, \textit{số lượng bài lý thuyết}, \textit{số lượng video}, \textit{tổng thời lượng}, \textit{số lượng học viên đã tham gia}, \textit{số lượt đánh giá} và \textit{điểm đánh giá trung bình} từ những người đã học.
+
+Mỗi khóa học được tạo ra bởi một giáo viên duy nhất và có thể thu hút nhiều người dùng tham gia. Người dùng tham gia khóa học không chỉ học tập mà còn có thể đánh giá chất lượng khóa học đó. Cấu trúc nội dung của khóa học được tổ chức thông qua các chương học, mỗi khóa học có thể bao gồm nhiều chương khác nhau.
+
+Mỗi \textbf{CHƯƠNG} được xác định bằng \underline{\textit{mã số chương}} và có \textit{tên chương} trong khóa học để phản ánh nội dung chính của chương đó.
+
+Mỗi chương luôn \textbf{thuộc về} một khóa học cụ thể. Trong mỗi chương có thể chứa nhiều \textit{bài học} khác nhau, tạo thành lộ trình học tập tuần tự cho người học. Ngoài ra, chương còn có thể \textbf{bao gồm} các bài tập và bài kiểm tra nhằm đánh giá mức độ tiếp thu kiến thức của người học sau khi hoàn thành chương học. Bài học trong hệ thống được phân thành hai dạng chính: \textit{bài học lý thuyết} và \textit{video bài học}. Với bài học lý thuyết, nội dung trong bài học sẽ được giáo viên soạn trực tiếp và lưu trong hệ thống. Còn với video bài học, giáo viên sẽ dẫn \textit{URL của video} được lưu trên nền tảng khác để giảm tải việc lưu dữ liệu.
+
+\textbf{BÀI TẬP} được thiết kế để giúp người học củng cố kiến thức đã học trong từng chương. Mỗi bài tập có \underline{\textit{mã số bài tập}} và các thông tin mô tả bao gồm \textit{tên bài tập}, \textit{nội dung đề bài}, \textit{đáp án mẫu} để người học tham khảo và \textit{điểm đạt} tối thiểu cần đạt được.
+
+Mỗi bài tập luôn thuộc về một chương cụ thể, giúp người học có thể luyện tập và áp dụng những kiến thức vừa học trong chương đó. Việc này đảm bảo tính liên kết chặt chẽ giữa nội dung học và phần thực hành.
+
+\textbf{BÀI KIỂM TRA} đóng vai trò đánh giá năng lực và mức độ tiếp thu của người học sau khi hoàn thành mỗi chương học. Mỗi bài kiểm tra có \underline{\textit{mã số bài kiểm tra}}, cùng với tên bài \textit{kiểm tra}, \textit{thời gian làm bài} quy định, \textit{điểm đạt} chuẩn và \textit{tổng điểm} của toàn bài.
+
+Bài kiểm tra luôn gắn liền với một chương học cụ thể. Nhiều người dùng có thể thực hiện cùng một bài kiểm tra, và hệ thống sẽ ghi nhận đầy đủ thông tin cho mỗi lần thực hiện bao gồm \textit{thời gian nộp bài}, \textit{điểm số đạt được} và \textit{số thứ tự} lần nộp bài. Mỗi bài kiểm tra \textbf{có bao gồm} một số lượng câu hỏi nhất định, trả lời các câu hỏi để số điểm làm bài kiểm tra đạt mức được thông qua.
+
+Mỗi \textbf{CÂU HỎI} được xác định bằng \textit{số thứ tự }trong bài kiểm tra và có \textit{nội dung} câu hỏi cụ thể cùng với \textit{số điểm} tương ứng cho câu hỏi đó.
+
+Mỗi câu hỏi luôn thuộc về một bài kiểm tra duy nhất. Đi cùng với mỗi câu hỏi là nhiều \textit{câu trả lời} khác nhau để người học lựa chọn. Câu trả lời là các phương án lựa chọn cho mỗi câu hỏi. Mỗi câu trả lời chứa nội dung cụ thể và có thể được đánh dấu là đáp án đúng hoặc sai, giúp hệ thống có thể tự động chấm điểm cho bài kiểm tra. Một câu hỏi có thể có một hoặc nhiều đáp án đúng tùy theo giáo viên ra đề.
+
+\textbf{BÀI LUYỆN TẬP} là dạng bài tập đặc biệt, không gắn trực tiếp với bất kỳ chương học cụ thể nào, cho phép người học thực hành kiến thức một cách linh hoạt và không giới hạn điều kiện. Mỗi bài luyện tập có \underline{\textit{mã số bài luyện tập}}, cùng với \underline{\textit{tên bài luyện tập}}, \textit{đề bài} và thông tin về \textit{độ khó}. Độ khó của mỗi bài luyện tập được chia ra làm dễ, trung bình hoặc khó.
+
+Nhiều người dùng có thể thực hiện cùng một bài luyện tập, và mỗi người dùng cũng có thể thực hiện nhiều bài luyện tập khác nhau. Hệ thống sẽ ghi nhận chi tiết \textit{thời gian làm bài}, \textit{thời điểm nộp bài} và \textit{điểm số} đạt được cho mỗi lần thực hiện, giúp người học theo dõi được sự tiến bộ của mình.
+
+\textbf{BÀI VIẾT CHIA SẺ} tạo nên diễn đàn thảo luận chung trong hệ thống, nơi người dùng có thể chia sẻ kiến thức, kinh nghiệm học tập. Mỗi bài viết có \underline{\textit{mã số bài viết}}, cùng với \underline{\textit{tên bài viết}}, \textit{nội dung chi tiết} và \textit{ngày đăng bài}.
+
+Mỗi bài viết luôn được đăng bởi một người dùng cụ thể, và người dùng đó chịu trách nhiệm về nội dung mà mình chia sẻ với cộng đồng.
+
+\textbf{BÌNH LUẬN} là công cụ tương tác quan trọng trong hệ thống, cho phép người dùng trao đổi ý kiến ở nhiều ngữ cảnh khác nhau. Mỗi bình luận có \underline{\textit{mã số bình luận riêng biệt}}, cùng với \textit{nội dung bình luận} và \textit{thời gian đăng}.
+
+Mỗi bình luận đều được viết bởi một người dùng cụ thể. Bình luận có thể \textbf{được gắn với} các bài viết chia sẻ hoặc khóa học, tạo thành những cuộc thảo luận sôi nổi. Đặc biệt, hệ thống hỗ trợ tính năng bình luận đa cấp, trong đó một bình luận có thể \textbf{có bao gồm} một bình luận phản hồi khác, tạo thành cấu trúc hội thoại dạng cây. Những bình luận gốc sẽ được theo dõi thông qua \textit{số lượt trả lời}, phản ánh mức độ tương tác của cộng đồng với chủ đề đó.
+
+\subsubsection{Mô tả các ràng buộc ngữ nghĩa về các kiểu thực thể, thuộc tính, mối liên kết mà không biểu diễn được bằng (E-)ERD}
+Dù thành công trong mô hình hóa cấu trúc dữ liệu hệ thống thông tin, song mô hình ERD vẫn có giới hạn. Một số ràng buộc ngữ nghĩa thực tế không thể biểu diễn thông qua ERD, có thể kể đến như: \vspace{-0.3cm}
+\begin{enumerate}
+\item Người dùng bị khóa tài khoản (bị cấm) không thể đăng bài viết, bình luận hoặc tham gia bất kỳ hoạt động học tập nào. \vspace{-0.3cm}
+\item Khóa học chỉ được mở cho người học đăng ký khi trạng thái là “hoạt động” (active). \vspace{-0.3cm}
+\item Giáo viên không thể đăng ký tham gia khóa học do chính mình tạo ra. \vspace{-0.3cm}
+\item Chỉ tác giả của khóa học mới được quyền chỉnh sửa nội dung trong khóa học. \vspace{-0.3cm}
+\item Một người dùng chỉ có thể thực hiện bài tập trong các khóa học mà họ đã đăng ký. \vspace{-0.3cm}
+\item Một người dùng chỉ có thể thực hiện bài kiểm tra trong các khóa học mà họ đã đăng ký. \vspace{-0.3cm}
+\item Điểm đánh giá của người dùng phải nằm trong khoảng 1–5 sao. \vspace{-0.3cm}
+\item Người dùng chỉ có thể đánh giá khóa học đã đăng ký. \vspace{-0.3cm}
+\item Người dùng chỉ được đánh giá mỗi khóa học một lần. \vspace{-0.3cm}
+\item Người học chỉ có thể nộp bài tối đa 10 lần/ngày cho cùng một bài luyện tập. \vspace{-0.3cm}
+\item Điểm số bài luyện tập không thể âm và tối đa là 100 điểm. \vspace{-0.3cm}
+\item Một người dùng chỉ có thể đăng tối đa 5 bài viết trong 1 ngày. \vspace{-0.3cm}
+\end{enumerate}
