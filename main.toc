@@ -6,7 +6,7 @@
 \contentsline {subsubsection}{\numberline {2.2.2}Mô tả các kiểu thực thể, các thuộc tính, mối liên kết}{5}{subsubsection.2.2.2}%
 \contentsline {subsubsection}{\numberline {2.2.3}Mô tả các ràng buộc ngữ nghĩa về các kiểu thực thể, thuộc tính, mối liên kết mà không biểu diễn được bằng (E-)ERD}{7}{subsubsection.2.2.3}%
 \contentsline {section}{\numberline {3}Thiết kế EERD}{9}{section.3}%
-\contentsline {section}{\numberline {4}Ánh xạ sang lược đồ CSDL}{11}{section.4}%
+\contentsline {section}{\numberline {4}Ánh xạ sang lược đồ CSDL quan hệ}{11}{section.4}%
 \contentsline {subsection}{\numberline {4.1}Bước 1: Ánh xạ các kiểu thực thể mạnh (Regular Entity Types)}{11}{subsection.4.1}%
 \contentsline {subsection}{\numberline {4.2}Bước 2: Ánh xạ các kiểu thực thể yếu (Weak Entity Types)}{12}{subsection.4.2}%
 \contentsline {subsection}{\numberline {4.3}Bước 3: Ánh xạ các kiểu mối liên kết hai ngôi 1:1 (Binary 1:1 Relationship Types)}{12}{subsection.4.3}%
@@ -14,3 +14,4 @@
 \contentsline {subsection}{\numberline {4.5}Bước 5: Ánh xạ các kiểu mối liên kết hai ngôi N:N (Binary N:N Relationship Types)}{14}{subsection.4.5}%
 \contentsline {subsection}{\numberline {4.6}Bước 6: Ánh xạ các thuộc tính đa trị (Multivalued attributes)}{15}{subsection.4.6}%
 \contentsline {subsection}{\numberline {4.7}Bước 7: Ánh xạ chuyên biệt hóa (lớp cha – lớp con)}{16}{subsection.4.7}%
+\contentsline {subsection}{\numberline {4.8}Lược đồ CSDL quan hệ}{17}{subsection.4.8}%

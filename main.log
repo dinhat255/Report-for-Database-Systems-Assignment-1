@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.10.10)  19 OCT 2025 02:21
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.10.10)  20 OCT 2025 01:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1834,7 +1834,7 @@ Package hyperref Info: Link coloring ON on input line 173.
 \openout2 = `content/Bìa.aux'.
 
 (content/Bìa.tex
-<picture/01_logobachkhoasang.png, id=70, 845.0772pt x 597.6729pt>
+<picture/01_logobachkhoasang.png, id=74, 845.0772pt x 597.6729pt>
 File: picture/01_logobachkhoasang.png Graphic file (type png)
 <use picture/01_logobachkhoasang.png>
 Package pdftex.def Info: picture/01_logobachkhoasang.png  used on input line 19
@@ -2057,7 +2057,7 @@ Package fancyhdr Warning: \headheight is too small (20.0pt):
 \openout2 = `"content/Thiết kế EERD.aux"'.
 
  (content/Thiết kế EERD.tex
-<picture/ERD.drawio.png, id=156, 1481.535pt x 764.8575pt>
+<picture/ERD.drawio.png, id=161, 1481.535pt x 764.8575pt>
 File: picture/ERD.drawio.png Graphic file (type png)
 <use picture/ERD.drawio.png>
 Package pdftex.def Info: picture/ERD.drawio.png  used on input line 4.
@@ -2066,8 +2066,8 @@ Package pdftex.def Info: picture/ERD.drawio.png  used on input line 4.
 
 File: picture/01_logobachkhoasang.png Graphic file (type png)
 <use picture/01_logobachkhoasang.png>
-Package pdftex.def Info: picture/01_logobachkhoasang.png  used on input line 8.
-
+Package pdftex.def Info: picture/01_logobachkhoasang.png  used on input line 10
+.
 (pdftex.def)             Requested size: 24.74516pt x 24.75098pt.
 
 Package fancyhdr Warning: \headheight is too small (20.0pt): 
@@ -2083,7 +2083,7 @@ Package fancyhdr Warning: \headheight is too small (20.0pt):
  <./picture/ERD.drawio.png>]
 File: picture/ERD.drawio.png Graphic file (type png)
 <use picture/ERD.drawio.png>
-Package pdftex.def Info: picture/ERD.drawio.png  used on input line 11.
+Package pdftex.def Info: picture/ERD.drawio.png  used on input line 13.
 (pdftex.def)             Requested size: 1481.53139pt x 764.85562pt.
 )
 
@@ -2103,7 +2103,7 @@ Package fancyhdr Warning: \headheight is too small (20.0pt):
 \openout2 = `"content/Ánh xạ sang lược đồ CSDL.aux"'.
 
  (content/Ánh xạ sang lược đồ CSDL.tex
-<picture/TTmanh.png, id=170, 1145.27875pt x 729.72626pt>
+<picture/TTmanh.png, id=177, 1145.27875pt x 729.72626pt>
 File: picture/TTmanh.png Graphic file (type png)
 <use picture/TTmanh.png>
 Package pdftex.def Info: picture/TTmanh.png  used on input line 8.
@@ -2127,12 +2127,12 @@ Package fancyhdr Warning: \headheight is too small (20.0pt):
 
 
  <./picture/TTmanh.png>]
-<picture/TTyeu.png, id=178, 1188.44pt x 454.69875pt>
+<picture/TTyeu.png, id=185, 1188.44pt x 454.69875pt>
 File: picture/TTyeu.png Graphic file (type png)
 <use picture/TTyeu.png>
 Package pdftex.def Info: picture/TTyeu.png  used on input line 18.
 (pdftex.def)             Requested size: 475.16095pt x 181.79996pt.
-<picture/lk1-1.png, id=179, 705.63625pt x 247.92625pt>
+<picture/lk1-1.png, id=186, 705.63625pt x 247.92625pt>
 File: picture/lk1-1.png Graphic file (type png)
 <use picture/lk1-1.png>
 Package pdftex.def Info: picture/lk1-1.png  used on input line 27.
@@ -2152,7 +2152,7 @@ Package fancyhdr Warning: \headheight is too small (20.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-18.16585pt}.
 
 [12 <./picture/TTyeu.png> <./picture/lk1-1.png>]
-<picture/lk1-n.png, id=190, 1293.83376pt x 1255.69125pt>
+<picture/lk1-n.png, id=197, 1293.83376pt x 1255.69125pt>
 File: picture/lk1-n.png Graphic file (type png)
 <use picture/lk1-n.png>
 Package pdftex.def Info: picture/lk1-n.png  used on input line 53.
@@ -2172,7 +2172,7 @@ Package fancyhdr Warning: \headheight is too small (20.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-18.16585pt}.
 
 [13]
-<picture/lkn-n.png, id=196, 1204.5pt x 1215.54124pt>
+<picture/lkn-n.png, id=203, 1204.5pt x 1215.54124pt>
 File: picture/lkn-n.png Graphic file (type png)
 <use picture/lkn-n.png>
 Package pdftex.def Info: picture/lkn-n.png  used on input line 70.
@@ -2192,7 +2192,7 @@ Package fancyhdr Warning: \headheight is too small (20.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-18.16585pt}.
 
 [14 <./picture/lk1-n.png>]
-<picture/datri.png, id=204, 1210.5225pt x 922.44624pt>
+<picture/datri.png, id=211, 1210.5225pt x 922.44624pt>
 File: picture/datri.png Graphic file (type png)
 <use picture/datri.png>
 Package pdftex.def Info: picture/datri.png  used on input line 79.
@@ -2212,12 +2212,26 @@ Package fancyhdr Warning: \headheight is too small (20.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-18.16585pt}.
 
 [15 <./picture/lkn-n.png>]
-<picture/chacon.jpg, id=212, 1105.12875pt x 201.75375pt>
+<picture/chacon.jpg, id=219, 1105.12875pt x 201.75375pt>
 File: picture/chacon.jpg Graphic file (type jpg)
 <use picture/chacon.jpg>
 Package pdftex.def Info: picture/chacon.jpg  used on input line 87.
 (pdftex.def)             Requested size: 475.16095pt x 86.74318pt.
-)
+
+
+File: picture/01_logobachkhoasang.png Graphic file (type png)
+<use picture/01_logobachkhoasang.png>
+Package pdftex.def Info: picture/01_logobachkhoasang.png  used on input line 94
+.
+(pdftex.def)             Requested size: 24.74516pt x 24.75098pt.
+
+Package fancyhdr Warning: \headheight is too small (20.0pt): 
+(fancyhdr)                Make it at least 38.16585pt, for example:
+(fancyhdr)                \setlength{\headheight}{38.16585pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-18.16585pt}.
+
+[16 <./picture/datri.png> <./picture/chacon.jpg>])
 
 File: picture/01_logobachkhoasang.png Graphic file (type png)
 <use picture/01_logobachkhoasang.png>
@@ -2231,12 +2245,12 @@ Package fancyhdr Warning: \headheight is too small (20.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-18.16585pt}.
 
-[16 <./picture/datri.png> <./picture/chacon.jpg>]
+[17]
 
 Package caption Warning: Unused \captionsetup[sub] on input line 25.
 See the caption package documentation for explanation.
 
-runsystem(latexminted cleantemp  --timestamp 20251019022200 FAD58DE7366495DB465
+runsystem(latexminted cleantemp  --timestamp 20251020011453 FAD58DE7366495DB465
 0CFEFAC2FCD61)...disabled (restricted).
 
 
@@ -2258,13 +2272,13 @@ LaTeX Font Warning: Size substitutions with differences
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 52F86F5043CA77C2B2ED86926B47A2D6;5801.
+(rerunfilecheck)             Checksum: 8666143D426916ABB7DDDA98E97715C4;6035.
  ) 
 Here is how much of TeX's memory you used:
- 44411 strings out of 468130
- 957132 string characters out of 5429664
- 1593132 words of memory out of 5000000
- 72226 multiletter control sequences out of 15000+600000
+ 44414 strings out of 468130
+ 957169 string characters out of 5429664
+ 1593094 words of memory out of 5000000
+ 72227 multiletter control sequences out of 15000+600000
  648799 words of font info for 89 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  108i,25n,131p,1057b,1212s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -2274,9 +2288,9 @@ pfb><C:/Users/DUYNHAT/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnr12
 12.pfb><C:/Users/DUYNHAT/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vn
 tt10.pfb><C:/Users/DUYNHAT/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/
 vntt12.pfb>
-Output written on main.pdf (17 pages, 588620 bytes).
+Output written on main.pdf (18 pages, 591650 bytes).
 PDF statistics:
- 256 PDF objects out of 1000 (max. 8388607)
- 54 named destinations out of 1000 (max. 500000)
- 186 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 270 PDF objects out of 1000 (max. 8388607)
+ 56 named destinations out of 1000 (max. 500000)
+ 194 words of extra memory for PDF output out of 10000 (max. 10000000)
 
